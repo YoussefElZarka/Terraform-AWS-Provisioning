@@ -1,8 +1,8 @@
 
 provider "aws" {
   region = "us-east-1"
-  #access_key = "AKIA5CBGTGSPWMQHAX2Y"
- # secret_key = "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"
+  access_key = "AKIA5CBGTGSPWMQHAX2Y"
+  secret_key = "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"
 
 }
 variable "vpc_cider_block" {
